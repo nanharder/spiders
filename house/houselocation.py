@@ -4,7 +4,7 @@ import pandas as pd
 import time
 
 def get_page(address):
-    ak = 'gfC2ZNiGIwglL3nO4mU7GsRazDuEDge5'
+    ak = 'ak'
     url = 'http://api.map.baidu.com/place/v2/search?' \
           'query={address}&region=合肥&output=json&ak={ak}'.format(address=address, ak=ak)
     response = requests.get(url)
