@@ -4,3 +4,4 @@ hololive/
 nijisanji/
 resources/
 configs.py
+__pycache__/

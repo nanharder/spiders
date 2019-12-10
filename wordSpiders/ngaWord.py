@@ -12,19 +12,7 @@ def get_page(url):
     headers = {
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) ' +
                       'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
-        'Cookie': 'UM_distinctid=16e8687798e55a-0f9d7193ddd21f-30760d58-13c680-16e8687798f6ca; '
-                  'taihe_bi_sdk_uid=afbc60f849ee2ecaed63bcc19c5e336f; '
-                  'taihe_bi_sdk_session=71cfee589680a1787f47e5d6bcce9802; PHPSESSID=jrupa42mg195qfgrk3fcctc1b0; '
-                  'ngacn0comUserInfo=%25C4%25B3%25C4%25EA%25C4%25B3%25D4%25C2234%09%25E6%259F%2590%25E5%25B9%25B4'
-                  '%25E6%259F%2590%25E6%259C%2588234%0939%0939%09%0910%090%094%090%090%09; ngaPassportUid=60471380; '
-                  'ngaPassportUrlencodedUname=%25C4%25B3%25C4%25EA%25C4%25B3%25D4%25C2234; '
-                  'ngaPassportCid=X8q18e9uv15km98ahrmc74tahkmpr5geho5a1itd; '
-                  'ngacn0comUserInfoCheck=22f20819c81c49e30aaa89ba920c28c2; ngacn0comInfoCheckTime=1574339249; '
-                  'lastpath=/read.php?tid=16227300&_fp=6&page=571; lastvisit=1574409260; '
-                  'bbsmisccookies=%7B%22uisetting%22%3A%7B0%3A1%2C1%3A1574820355%7D%2C%22pv_count_for_insad%22%3A%7B0'
-                  '%3A-38%2C1%3A1574442074%7D%2C%22insad_views%22%3A%7B0%3A1%2C1%3A1574442074%7D%7D; '
-                  'CNZZDATA30043604=cnzz_eid%3D348822524-1574214750-https%253A%252F%252Fwww.google.com%252F%26ntime'
-                  '%3D1574409150; _cnzz_CV30043604=forum%7Cfid-60204499%7C0 '
+        'Cookie': '**'
     }
 
     return requests.get(url, headers=headers)
