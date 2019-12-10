@@ -61,7 +61,7 @@ def get_info(page):
 
 
 def save_data(data):
-    db = pymysql.connect(host='localhost', user='nanhang', password='hang2212', port=3306, db='spiders')
+    db = pymysql.connect(host='localhost', user='root', password='password', port=3306, db='spiders')
     cursor = db.cursor()
 
     table = 'hefeisecond'
